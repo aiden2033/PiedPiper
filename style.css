@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #eeeeee;
+}
+.head {
+  position: fixed;
+}
+.header {
+  margin: 0px;
+}
+
+.logoone {
+  margin: -70px 100px 100px 130px;
+}
+.logotwo {
+  margin: -80px 100px 100px -147px;
+}
+.navmenu {
+  font-family: sans-serif;
+  color: whitesmoke;
+  position: relative;
+  align-self: center;
+  margin: -150px 100px 100px 380px;
+  text-align: center;
+  border-spacing: 1px;
+  border-collapse: collapse;
+  min-width: 10%;
+}
+table td {
+  overflow: hidden;
+  padding: 0.6rem;
+}
+.navmenu a {
+  color: whitesmoke;
+  text-decoration: none;
+}
+.navmenu td:first-child {
+  border-right: 1.4px solid whitesmoke;
+}
+.navmenu td:last-child {
+  border-left: 1.4px solid whitesmoke;
+}
+@media screen and (max-width: 710px) {
+  .navmenu{
+    margin: -165px 140px auto 320px;
+  }
+  .navmenu td{
+    display: block;
+    padding: 0.2rem;
+  }
+  .navmenu td:first-child {
+    border-right:none;
+  }
+  .navmenu td:last-child {
+    border-left: none;
+  }
+}
+
+h1 {
+  color: white;
+  font-size: 72px;
+  text-align: center;
+  margin: -170px 0 auto 0;
+  font-family: sans-serif;
+}
+h2 {
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 64px;
+  color: #007765;
+}
+h4,
+h6 {
+  font-family: sans-serif;
+  text-align: center;
+  font-family: sans-serif;
+  font-size: 21px;
+}
+h4 {
+  font-family: sans-serif;
+  color: #007765;
+  font-size: 28px;
+}
+p {
+  font-family: sans-serif;
+  text-align: start;
+  margin: auto;
+  font-size: 32px;
+  margin: 10px 55px;
+  color: black;
+}
+.problem {
+  margin: 100px auto;
+}
+.introducing {
+  background-color: white;
+}
+.ppclogo {
+  text-align: start;
+  float: left;
+  margin: 10px 55px;
+}
+.team {
+  font-family: sans-serif;
+  margin: 40px auto;
+  text-align: center;
+  width: 100%;
+  border: 0px;
+  border-collapse: collapse;
+}
+.team thead {
+  font-weight: bold;
+}
+.team td {
+  padding: 35px 100px;
+  /*padding: 0.6rem 1rem;*/
+  border-bottom: 1px solid #e8e9eb;
+}
+
+@media screen and (max-width: 1030px) {
+  .team tr {
+    margin-bottom: 1rem;
+  }
+  .team td {
+    display: block;
+    text-align: center;
+  }
+}
+
+
+.footer {
+  background-color: #333333;
+  margin: auto;
+  text-align: center;
+}
+.footertxt {
+  width: 35vw;
+  margin: auto;
+  color: white;
+  font-size: 18px;
+}
